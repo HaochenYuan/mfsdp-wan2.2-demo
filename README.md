@@ -9,5 +9,5 @@ Env:  nvcr_pytorch_26.01.
   ./run_pretrain.sh compare    # Run all config sequentially
 # To enable triple buffer & UBR:
     FSDP_DOUBLE_BUFFER="${FSDP_DOUBLE_BUFFER:-true}"
-    NCCL_UB="${NCCL_UB:-false}"
+    NCCL_UB="${NCCL_UB:-true}"
 ```
