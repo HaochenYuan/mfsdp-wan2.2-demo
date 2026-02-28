@@ -4,9 +4,6 @@
 [2026-02-27 22:55:10,137] Profiler enabled: start_step=18, end_step=20, output=output/wan22_pretrain/mfsdp_fuse/profiler
 [2026-02-27 22:55:10,267] [MCORE][MultiGroupMemPoolAllocator] Failed to deregister mem pool from<torch.distributed.distributed_c10d.ProcessGroup object at 0x7ffc94bf0b70>(default_pg) group!!
 [2026-02-27 22:55:16,777] [MCORE][MultiGroupMemPoolAllocator] Failed to deregister mem pool from<torch.distributed.distributed_c10d.ProcessGroup object at 0x7ffc94bf0b70>(default_pg) group!!
-[2026-02-27 22:55:24,208] [MCORE][MultiGroupMemPoolAllocator] Failed to deregister mem pool from<torch.distributed.distributed_c10d.ProcessGroup object at 0x7ffc94bf0b70>(default_pg) group!!
-[2026-02-27 22:55:31,028] [MCORE][MultiGroupMemPoolAllocator] Failed to deregister mem pool from<torch.distributed.distributed_c10d.ProcessGroup object at 0x7ffc94bf0b70>(default_pg) group!!
-[2026-02-27 22:55:37,805] [MCORE][MultiGroupMemPoolAllocator] Failed to deregister mem pool from<torch.distributed.distributed_c10d.ProcessGroup object at 0x7ffc94bf0b70>(default_pg) group!!
 [2026-02-27 22:55:44,970] Step 1/20 | Loss: 2.0016 | Step: 34833.58ms | Forward: 13927.00ms | Backward: 20814.37ms | LR: 1.00e-07
 [2026-02-27 22:55:46,325] Step 2/20 | Loss: 1.9997 | Step: 1355.00ms | Forward: 1070.44ms | Backward: 269.17ms | LR: 2.00e-07
 [2026-02-27 22:55:46,747] Step 3/20 | Loss: 1.9986 | Step: 421.10ms | Forward: 136.67ms | Backward: 270.45ms | LR: 3.00e-07
